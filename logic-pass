@@ -1,0 +1,30 @@
+Q1/
+class Myclass:
+    def init(self):
+        pass
+    def removrchar(self):
+        x = "Hello world"
+        y = s.replace("o", "")
+        print("string after removing",y)
+        print("string before removing",x)
+obj=Myclass()
+obj.removrchar()
+
+Q2/
+min = int(input("Enter the min : "))
+max = int(input("Enter the max : "))
+for n in range(min,max + 1):
+   if n > 1:
+       for i in range(2,n):
+           if (n % i) == 0:
+               break
+       else:
+           print(n)
+           
+Q3/
+x="Hello world"
+count = 0
+for i in x:
+    if i == "l":
+        count = count + 1
+print(count)
